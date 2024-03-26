@@ -1,0 +1,234 @@
+Eshell V12.2.1  (abort with ^G)
+1> c(rss_parse).    
+{ok,rss_parse}
+2> c(rss_queue).   
+rss_queue.erl:3:2: Warning: export_all flag enabled - all functions will be exported
+%    3| -compile(export_all).
+%     |  ^
+
+{ok,rss_queue}
+3> c(rss_reader).   
+rss_reader.erl:3:2: Warning: export_all flag enabled - all functions will be exported
+%    3| -compile(export_all).
+%     |  ^
+
+rss_reader.erl:17:8: Warning: variable 'Status' is unused
+%   17|   {ok,{Status={_,Code,_},_,Load}}=httpc:request(Url)
+%     |        ^
+
+{ok,rss_reader}
+
+5> QueuePid = rss_queue:start().
+<0.105.0>
+6> rss_reader:start("http://rss.cnn.com/rss/cnn_topstories.rss", QueuePid).
+<0.116.0>
+7> =INFO REPORT==== 26-Mar-2024::11:27:58.688320 ===
+rss_queue <0.105.0>:  New item <0.105.0> 
+
+=INFO REPORT==== 26-Mar-2024::11:27:58.688635 ===
+rss_queue <0.116.0>:  Added N=69 items from the feed to <0.105.0> 
+
+=INFO REPORT==== 26-Mar-2024::11:27:58.695382 ===
+rss_queue <0.105.0>:  New item <0.105.0> 
+
+=INFO REPORT==== 26-Mar-2024::11:27:58.695726 ===
+rss_queue <0.105.0>:  New item <0.105.0> 
+
+=INFO REPORT==== 26-Mar-2024::11:27:58.696136 ===
+rss_queue <0.105.0>:  New item <0.105.0> 
+
+=INFO REPORT==== 26-Mar-2024::11:27:58.696604 ===
+rss_queue <0.105.0>:  New item <0.105.0> 
+
+=INFO REPORT==== 26-Mar-2024::11:27:58.697164 ===
+rss_queue <0.105.0>:  New item <0.105.0> 
+
+=INFO REPORT==== 26-Mar-2024::11:27:58.703549 ===
+rss_queue <0.105.0>:  New item <0.105.0> 
+
+=INFO REPORT==== 26-Mar-2024::11:27:58.704513 ===
+rss_queue <0.105.0>:  New item <0.105.0> 
+
+=INFO REPORT==== 26-Mar-2024::11:27:58.705509 ===
+rss_queue <0.105.0>:  New item <0.105.0> 
+
+=INFO REPORT==== 26-Mar-2024::11:27:58.706663 ===
+rss_queue <0.105.0>:  New item <0.105.0> 
+
+=INFO REPORT==== 26-Mar-2024::11:27:58.709672 ===
+rss_queue <0.105.0>:  New item <0.105.0> 
+
+=INFO REPORT==== 26-Mar-2024::11:27:58.710619 ===
+rss_queue <0.105.0>:  New item <0.105.0> 
+
+=INFO REPORT==== 26-Mar-2024::11:27:58.711991 ===
+rss_queue <0.105.0>:  New item <0.105.0> 
+
+=INFO REPORT==== 26-Mar-2024::11:27:58.713434 ===
+rss_queue <0.105.0>:  New item <0.105.0> 
+
+=INFO REPORT==== 26-Mar-2024::11:27:58.714895 ===
+rss_queue <0.105.0>:  New item <0.105.0> 
+
+=INFO REPORT==== 26-Mar-2024::11:27:58.716098 ===
+rss_queue <0.105.0>:  New item <0.105.0> 
+
+=INFO REPORT==== 26-Mar-2024::11:27:58.717720 ===
+rss_queue <0.105.0>:  New item <0.105.0> 
+
+=INFO REPORT==== 26-Mar-2024::11:27:58.719391 ===
+rss_queue <0.105.0>:  New item <0.105.0> 
+
+=INFO REPORT==== 26-Mar-2024::11:27:58.721255 ===
+rss_queue <0.105.0>:  New item <0.105.0> 
+
+=INFO REPORT==== 26-Mar-2024::11:27:58.723457 ===
+rss_queue <0.105.0>:  New item <0.105.0> 
+
+=INFO REPORT==== 26-Mar-2024::11:27:58.725879 ===
+rss_queue <0.105.0>:  New item <0.105.0> 
+
+=INFO REPORT==== 26-Mar-2024::11:27:58.727991 ===
+rss_queue <0.105.0>:  New item <0.105.0> 
+
+=INFO REPORT==== 26-Mar-2024::11:27:58.730739 ===
+rss_queue <0.105.0>:  New item <0.105.0> 
+
+=INFO REPORT==== 26-Mar-2024::11:27:58.733422 ===
+rss_queue <0.105.0>:  New item <0.105.0> 
+
+=INFO REPORT==== 26-Mar-2024::11:27:58.736791 ===
+rss_queue <0.105.0>:  New item <0.105.0> 
+
+=INFO REPORT==== 26-Mar-2024::11:27:58.739545 ===
+rss_queue <0.105.0>:  New item <0.105.0> 
+
+=INFO REPORT==== 26-Mar-2024::11:27:58.742020 ===
+rss_queue <0.105.0>:  New item <0.105.0> 
+
+=INFO REPORT==== 26-Mar-2024::11:27:58.744925 ===
+rss_queue <0.105.0>:  New item <0.105.0> 
+
+=INFO REPORT==== 26-Mar-2024::11:27:58.747784 ===
+rss_queue <0.105.0>:  New item <0.105.0> 
+
+=INFO REPORT==== 26-Mar-2024::11:27:58.750506 ===
+rss_queue <0.105.0>:  New item <0.105.0> 
+
+=INFO REPORT==== 26-Mar-2024::11:27:58.753573 ===
+rss_queue <0.105.0>:  New item <0.105.0> 
+
+=INFO REPORT==== 26-Mar-2024::11:27:58.756690 ===
+rss_queue <0.105.0>:  New item <0.105.0> 
+
+=INFO REPORT==== 26-Mar-2024::11:27:58.759830 ===
+rss_queue <0.105.0>:  New item <0.105.0> 
+
+=INFO REPORT==== 26-Mar-2024::11:27:58.763352 ===
+rss_queue <0.105.0>:  New item <0.105.0> 
+
+=INFO REPORT==== 26-Mar-2024::11:27:58.766864 ===
+rss_queue <0.105.0>:  New item <0.105.0> 
+
+=INFO REPORT==== 26-Mar-2024::11:27:58.770034 ===
+rss_queue <0.105.0>:  New item <0.105.0> 
+
+=INFO REPORT==== 26-Mar-2024::11:27:58.773439 ===
+rss_queue <0.105.0>:  New item <0.105.0> 
+
+=INFO REPORT==== 26-Mar-2024::11:27:58.776838 ===
+rss_queue <0.105.0>:  New item <0.105.0> 
+
+=INFO REPORT==== 26-Mar-2024::11:27:58.780139 ===
+rss_queue <0.105.0>:  New item <0.105.0> 
+
+=INFO REPORT==== 26-Mar-2024::11:27:58.783552 ===
+rss_queue <0.105.0>:  New item <0.105.0> 
+
+=INFO REPORT==== 26-Mar-2024::11:27:58.787441 ===
+rss_queue <0.105.0>:  New item <0.105.0> 
+
+=INFO REPORT==== 26-Mar-2024::11:27:58.791508 ===
+rss_queue <0.105.0>:  New item <0.105.0> 
+
+=INFO REPORT==== 26-Mar-2024::11:27:58.795586 ===
+rss_queue <0.105.0>:  New item <0.105.0> 
+
+=INFO REPORT==== 26-Mar-2024::11:27:58.799907 ===
+rss_queue <0.105.0>:  New item <0.105.0> 
+
+=INFO REPORT==== 26-Mar-2024::11:27:58.803871 ===
+rss_queue <0.105.0>:  New item <0.105.0> 
+
+=INFO REPORT==== 26-Mar-2024::11:27:58.808077 ===
+rss_queue <0.105.0>:  New item <0.105.0> 
+
+=INFO REPORT==== 26-Mar-2024::11:27:58.812018 ===
+rss_queue <0.105.0>:  New item <0.105.0> 
+
+=INFO REPORT==== 26-Mar-2024::11:27:58.816075 ===
+rss_queue <0.105.0>:  New item <0.105.0> 
+
+=INFO REPORT==== 26-Mar-2024::11:27:58.820073 ===
+rss_queue <0.105.0>:  New item <0.105.0> 
+
+=INFO REPORT==== 26-Mar-2024::11:27:58.824955 ===
+rss_queue <0.105.0>:  New item <0.105.0> 
+
+=INFO REPORT==== 26-Mar-2024::11:27:58.829544 ===
+rss_queue <0.105.0>:  New item <0.105.0> 
+
+=INFO REPORT==== 26-Mar-2024::11:27:58.834088 ===
+rss_queue <0.105.0>:  New item <0.105.0> 
+
+=INFO REPORT==== 26-Mar-2024::11:27:58.838930 ===
+rss_queue <0.105.0>:  New item <0.105.0> 
+
+=INFO REPORT==== 26-Mar-2024::11:27:58.843594 ===
+rss_queue <0.105.0>:  New item <0.105.0> 
+
+=INFO REPORT==== 26-Mar-2024::11:27:58.848548 ===
+rss_queue <0.105.0>:  New item <0.105.0> 
+
+=INFO REPORT==== 26-Mar-2024::11:27:58.853804 ===
+rss_queue <0.105.0>:  New item <0.105.0> 
+
+=INFO REPORT==== 26-Mar-2024::11:27:58.859668 ===
+rss_queue <0.105.0>:  New item <0.105.0> 
+
+=INFO REPORT==== 26-Mar-2024::11:27:58.865083 ===
+rss_queue <0.105.0>:  New item <0.105.0> 
+
+=INFO REPORT==== 26-Mar-2024::11:27:58.870536 ===
+rss_queue <0.105.0>:  New item <0.105.0> 
+
+=INFO REPORT==== 26-Mar-2024::11:27:58.876167 ===
+rss_queue <0.105.0>:  New item <0.105.0> 
+
+=INFO REPORT==== 26-Mar-2024::11:27:58.881946 ===
+rss_queue <0.105.0>:  New item <0.105.0> 
+
+=INFO REPORT==== 26-Mar-2024::11:27:58.889142 ===
+rss_queue <0.105.0>:  New item <0.105.0> 
+
+=INFO REPORT==== 26-Mar-2024::11:27:58.895392 ===
+rss_queue <0.105.0>:  New item <0.105.0> 
+
+=INFO REPORT==== 26-Mar-2024::11:27:58.901732 ===
+rss_queue <0.105.0>:  New item <0.105.0> 
+
+=INFO REPORT==== 26-Mar-2024::11:27:58.907647 ===
+rss_queue <0.105.0>:  New item <0.105.0> 
+
+=INFO REPORT==== 26-Mar-2024::11:27:58.915064 ===
+rss_queue <0.105.0>:  New item <0.105.0> 
+
+=INFO REPORT==== 26-Mar-2024::11:27:58.922855 ===
+rss_queue <0.105.0>:  New item <0.105.0> 
+
+=INFO REPORT==== 26-Mar-2024::11:27:58.930011 ===
+rss_queue <0.105.0>:  New item <0.105.0> 
+
+=INFO REPORT==== 26-Mar-2024::11:27:58.937031 ===
+rss_queue <0.105.0>:  New item <0.105.0> 
+
