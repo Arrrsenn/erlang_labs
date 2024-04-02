@@ -1,0 +1,126 @@
+5> {ok, QPid1} = rss_queue:start(cnn_top_stories,
+5>         "http://rss.cnn.com/rss/cnn_topstories.rss").
+{ok,<0.112.0>}
+6> =INFO REPORT==== 2-Apr-2024::12:45:40.764339 ===
+rss_queue <0.112.0>:  New item <0.112.0> 
+
+=INFO REPORT==== 2-Apr-2024::12:45:40.764626 ===
+rss_queue <0.122.0>:  Added N=69 items from the feed to <0.112.0> 
+
+=INFO REPORT==== 2-Apr-2024::12:45:40.764771 ===
+rss_queue <0.112.0>:  New item <0.112.0> 
+
+=INFO REPORT==== 2-Apr-2024::12:45:40.769650 ===
+rss_queue <0.112.0>:  New item <0.112.0> 
+
+=INFO REPORT==== 2-Apr-2024::12:45:40.769892 ===
+rss_queue <0.112.0>:  New item <0.112.0> 
+
+=INFO REPORT==== 2-Apr-2024::12:45:40.770195 ===
+rss_queue <0.112.0>:  New item <0.112.0> 
+
+=INFO REPORT==== 2-Apr-2024::12:45:40.770494 ===
+rss_queue <0.112.0>:  New item <0.112.0> 
+
+=INFO REPORT==== 2-Apr-2024::12:45:40.774991 ===
+rss_queue <0.112.0>:  New item <0.112.0> 
+
+=INFO REPORT==== 2-Apr-2024::12:45:40.775382 ===
+rss_queue <0.112.0>:  New item <0.112.0> 
+
+=INFO REPORT==== 2-Apr-2024::12:45:40.775807 ===
+rss_queue <0.112.0>:  New item <0.112.0> 
+
+=INFO REPORT==== 2-Apr-2024::12:45:40.776301 ===
+rss_queue <0.112.0>:  New item <0.112.0> 
+
+=INFO REPORT==== 2-Apr-2024::12:45:40.776851 ===
+rss_queue <0.112.0>:  New item <0.112.0> 
+
+=INFO REPORT==== 2-Apr-2024::12:45:40.777445 ===
+rss_queue <0.112.0>:  New item <0.112.0> 
+
+=INFO REPORT==== 2-Apr-2024::12:45:40.778057 ===
+rss_queue <0.112.0>:  New item <0.112.0> 
+
+=INFO REPORT==== 2-Apr-2024::12:45:40.780002 ===
+rss_queue <0.112.0>:  New item <0.112.0> 
+
+=INFO REPORT==== 2-Apr-2024::12:45:40.780522 ===
+rss_queue <0.112.0>:  New item <0.112.0> 
+
+=INFO REPORT==== 2-Apr-2024::12:45:40.781047 ===
+rss_queue <0.112.0>:  New item <0.112.0> 
+
+=INFO REPORT==== 2-Apr-2024::12:45:40.781683 ===
+rss_queue <0.112.0>:  New item <0.112.0> 
+
+=INFO REPORT==== 2-Apr-2024::12:45:40.782212 ===
+rss_queue <0.112.0>:  New item <0.112.0> 
+
+=INFO REPORT==== 2-Apr-2024::12:45:40.782738 ===
+rss_queue <0.112.0>:  New item <0.112.0> 
+
+=INFO REPORT==== 2-Apr-2024::12:45:40.783250 ===
+rss_queue <0.112.0>:  New item <0.112.0> 
+
+=INFO REPORT==== 2-Apr-2024::12:45:40.783788 ===
+rss_queue <0.112.0>:  New item <0.112.0> 
+
+=INFO REPORT==== 2-Apr-2024::12:45:40.784658 ===
+rss_queue <0.112.0>:  New item <0.112.0> 
+
+=INFO REPORT==== 2-Apr-2024::12:45:40.785278 ===
+rss_queue <0.112.0>:  New item <0.112.0> 
+
+=INFO REPORT==== 2-Apr-2024::12:45:40.785917 ===
+rss_queue <0.112.0>:  New item <0.112.0> 
+
+=INFO REPORT==== 2-Apr-2024::12:45:40.786633 ===
+rss_queue <0.112.0>:  New item <0.112.0> 
+
+=INFO REPORT==== 2-Apr-2024::12:45:40.787329 ===
+rss_queue <0.112.0>:  New item <0.112.0> 
+
+=INFO REPORT==== 2-Apr-2024::12:45:40.788009 ===
+rss_queue <0.112.0>:  New item <0.112.0> 
+
+=INFO REPORT==== 2-Apr-2024::12:45:40.788764 ===
+rss_queue <0.112.0>:  New item <0.112.0> 
+
+=INFO REPORT==== 2-Apr-2024::12:45:40.789540 ===
+rss_queue <0.112.0>:  New item <0.112.0> 
+
+=INFO REPORT==== 2-Apr-2024::12:45:40.790361 ===
+rss_queue <0.112.0>:  New item <0.112.0> 
+
+=INFO REPORT==== 2-Apr-2024::12:45:40.791169 ===
+rss_queue <0.112.0>:  New item <0.112.0> 
+
+=INFO REPORT==== 2-Apr-2024::12:45:40.791952 ===
+rss_queue <0.112.0>:  New item <0.112.0> 
+
+=INFO REPORT==== 2-Apr-2024::12:45:40.792812 ===
+rss_queue <0.112.0>:  New item <0.112.0> 
+
+=INFO REPORT==== 2-Apr-2024::12:45:40.793731 ===
+rss_queue <0.112.0>:  New item <0.112.0> 
+
+=INFO REPORT==== 2-Apr-2024::12:45:40.794705 ===
+rss_queue <0.112.0>:  New item <0.112.0> 
+
+=INFO REPORT==== 2-Apr-2024::12:45:40.795667 ===
+rss_queue <0.112.0>:  New item <0.112.0> 
+
+
+2> {ok, QPid3} = rss_queue:start(top_stories).
+{ok,<0.97.0>}
+
+
+4> rss_queue:subscribe(QPid3, QPid2).
+=INFO REPORT==== 2-Apr-2024::12:49:28.500290 ===
+rss_queue <0.82.0>:  New subscriber <0.97.0> to <0.82.0>
+
+ok
+
+
